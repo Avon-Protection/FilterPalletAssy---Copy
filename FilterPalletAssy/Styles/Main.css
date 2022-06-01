@@ -1,0 +1,417 @@
+﻿body 
+{
+    background-color:#FFC375;
+}
+.lblTitle
+{
+    position:absolute;
+    top:10px;
+    left:10px;
+    font-size:x-large;    
+}
+.lblError
+{
+    position:absolute;
+    top:110px;
+    left:10px;
+    color:Red;
+    font-size:x-large;
+    font-weight:bold;
+}
+.ddlPrinters
+{
+    position:absolute;
+    top:50px;
+    left:450px;
+    width:200px;	
+}
+.lblDefaultPersonalPrinter
+{
+position:absolute;
+top:80px;
+left:450px;	
+}
+.chkDefaultPersonal
+{
+position:absolute;
+top:80px;
+left:425px;
+}
+.ddlLoc
+{
+    position:absolute;
+    top:80px;
+    left:10px;
+}	
+
+.btnCreate
+{
+    position:absolute;
+    top:50px;
+    left:10px;
+    width:100px;   
+}
+.btnResume
+{
+    position:absolute;
+    top:50px;
+    left:150px;
+    width:100px;   
+}
+.btnReset
+{
+    position:absolute;
+    top:50px;
+    left:290px;
+    width:100px;   
+}
+.ddlMode
+{
+    position:absolute;
+    top:80px;
+    left:150px;
+    width:150px;
+}
+.pnlPalletHeader
+{
+    position:absolute;  
+    top:150px;
+    left:10px;
+    border-style:solid;  
+    height:350px;
+    width:200px;
+}
+.lblFilterLot
+{
+    position:absolute;
+    top:10px;
+    left:20px; 
+}
+.txtFilterLot
+{
+    position:absolute;
+    top:30px;
+    left:20px;    
+}
+.lblWeek
+{
+position:absolute;
+top:60px;
+left:20px;	
+}
+.txtWeek
+{
+position:absolute;
+top:80px;
+left:20px;
+width:50px;
+}
+.reqFieldValWeek
+{
+position:absolute;
+left:80px;
+top:80px;
+font-size:x-small;	
+color:Red;
+}
+.cstValWeek
+{
+position:absolute;
+left:80px;
+top:80px;
+font-size:x-small;	
+color:Red;
+}
+.rngValWeek
+{
+position:absolute;
+left:80px;
+top:80px;
+font-size:x-small;	
+color:Red;
+}
+.lblYear
+{
+position:absolute;
+top:110px;
+left:20px;	
+}	
+.txtYear
+{
+position:absolute;
+top:130px;
+left:20px;
+width:50px;	
+}	
+.reqFieldValYear
+{
+position:absolute;
+left:80px;
+top:115px;
+font-size:x-small;	
+color:Red;
+}	
+.rngValYear
+{
+position:absolute;
+left:80px;
+top:120px;
+font-size:x-small;	
+color:Red;
+}
+.lblPallet
+{
+position:absolute;
+top:160px;
+left:20px;	
+}	
+.txtPallet
+{
+position:absolute;
+top:180px;
+left:20px;	
+width:50px;
+}	
+.reqFieldValPallet
+{
+position:absolute;
+left:80px;
+top:165px;
+font-size:x-small;	
+color:Red;
+}
+.rngValPallet
+{
+position:absolute;
+left:80px;
+top:165px;
+font-size:x-small;	
+color:Red;
+}
+.btnSubmit
+{
+position:absolute;
+top:290px;
+left:13px;
+width:75px;
+}
+.pnlVerify
+{
+position:absolute;
+top:110px;
+left:220px;    
+}
+.lblVerify
+{
+position:absolute;  
+top:100px;
+left:50px; 
+width:300px;   
+}
+.btnYes
+{
+position:absolute;
+top:150px;
+left:50px;
+width:100px;    
+}
+.btnNo
+{
+position:absolute;
+top:150px;
+left:200px;
+width:100px;    
+}
+.pnlSerialData
+{
+position:absolute;
+top:150px;
+left:215px;
+height:350px;
+width:825px;
+background-color:#FFC375;
+}
+.pnlSerialDataChange
+{
+position:absolute;
+top:150px;
+left:215px;
+height:350px;
+width:600px;
+background-color:#1799B5;
+}
+.lstSerials
+{
+position:absolute;
+top:10px;
+left:10px;	
+width:150px;
+height:330px;
+}
+.lblSerial
+{
+position:absolute;
+top:10px;
+left:200px;	
+}
+.txtSerial
+{
+position:absolute;
+top:30px;
+left:200px;
+width:150px;
+}
+.lblCurrCountText
+{
+position:absolute;
+top:60px;
+left:200px;	
+}
+.lblCurrCount
+{
+position:absolute;
+top:60px;
+left:315px;
+font-size:xx-large;
+color:Red;	
+}
+.lblCurrRowCountText
+{
+position:absolute;
+top:60px;
+left:400px;	
+}
+.lblCurrRowCount
+{
+position:absolute;
+top:60px;
+left:515px;
+font-size:xx-large;
+color:Red;	
+}
+.btnDelete
+{
+position:absolute;
+top:110px;
+left:200px;
+width:150px;	
+}
+.btnDeleteByScan
+{
+position:absolute;
+top:110px;
+left:375px;
+width:150px;	
+}
+.btnDeleteAll
+{
+position:absolute;
+top:150px;
+left:375px;
+width:150px;	
+}
+.btnFinish
+{
+position:absolute;
+top:150px;
+left:200px;
+width:150px;	
+}
+.grdDupBarcodes
+{
+position:absolute;
+top:150px;
+left:815px; 
+border: solid 1px #000000;
+z-index:99;	
+}
+.grdDupBarcodesHeader
+{
+font-size:x-small;
+background-color: #CC0000;
+font-weight:bold;
+padding:150px;	
+}
+.grdDupBarcodesRecords td
+{
+border: solid 1px #000000;
+margin: 1px 1px 1px 1px;
+padding: 1px 1px 1px 1px;
+text-align: center;	
+}
+.grdDupBarcodesRow
+{
+font-size:small;
+background-color: #CFE3FE;
+padding:50px;
+border: solid 1px #000000;
+}
+.pnlSignOff
+{
+position:absolute;
+top:190px;
+left:200px;	
+}
+.lblInitials
+{
+position:absolute;
+top:20px;
+left:20px;
+}
+.txtInitials
+{
+position:absolute;
+top:40px;
+left:20px;
+width:50px;
+}
+.lblCountVerify
+{
+position:absolute;
+top:65px;
+left:20px;
+}
+.txtCountVerify
+{
+position:absolute;
+top:85px;
+left:20px;
+width:50px;	
+}
+.lblFinish
+{
+position:absolute;
+top:110px;
+left:5px;
+color:Red;
+}
+.reqFieldInitials
+{
+position:absolute;
+top:45px;
+left:75px;	
+}
+.cstValCountVerify
+{
+position:absolute;
+top:90px;
+left:75px;	
+}
+.pnlDuplicateError
+{
+position:absolute;
+top:150px;
+left:215px;
+height:350px;
+width:825px;
+background-color:RED;
+border-style:solid;
+}    
+.btnDupOK
+{
+    position:absolute;
+    top:100px;
+    left:100px;
+    width:100px;
+    height:100px;  
+}
